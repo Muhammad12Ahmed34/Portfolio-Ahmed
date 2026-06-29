@@ -8,7 +8,7 @@ A personal portfolio website built with vanilla HTML, CSS, and JavaScript. Clean
  
 ## 🚀 Live Preview
  
-> (https://github.com/Muhammad12Ahmed34/Portfolio-Ahmed.git)
+> (https://muhammad12ahmed34.github.io/Portfolio-Ahmed/)
  
 ---
  
