@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--==================== Basic Meta Tags ====================-->
+    <!-- UTF-8 supports all normal characters and symbols -->
+    <meta charset="UTF-8">
+
+    <!-- Helps old browsers render the website properly -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Makes the website responsive on mobile, tablet, and desktop -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== SEO Meta Tags ====================-->
+    <meta name="title" content="Muhammad Ahmed - Portfolio">
+    <meta name="description"
+        content="Portfolio of Muhammad Ahmed, an Electrical Engineering student, Knowledge Khana co-founder, web developer, designer, and builder.">
+    <meta name="keywords"
+        content="Muhammad Ahmed, Electrical Engineer, Portfolio, NED University, Knowledge Khana, Web Developer, Karachi">
+    <meta name="author" content="Muhammad Ahmed">
+    <meta name="robots" content="index, follow">
+
+    <!--==================== Website Title & Icon ====================-->
+    <title>Muhammad Ahmed | Portfolio</title>
+    <link rel="icon" type="image/png" href="./assets/Ahmed Tech logo.png">
+
+    <!--==================== Google Font ====================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!--==================== Icons ====================-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--==================== CSS File ====================-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--==================== JavaScript File ====================-->
+    <!-- defer means JS loads after HTML is ready -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!--==================== Header ====================-->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="nav">
+                <!-- Website logo / brand name -->
+                <a href="#home" class="nav__brand">
+                    <i class="ri-code-s-slash-line"></i>
+                    Muhammad Ahmed
+                </a>
+
+                <!-- Navigation menu -->
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li><a href="#home" class="nav__link">Home</a></li>
+                        <li><a href="#about" class="nav__link">About</a></li>
+                        <li><a href="#skills" class="nav__link">Skills</a></li>
+                        <li><a href="#qualification" class="nav__link">Qualification</a></li>
+                        <li><a href="#services" class="nav__link">Services</a></li>
+                        <li><a href="#projects" class="nav__link">Projects</a></li>
+                        <li><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Mobile menu icon -->
+                <button class="nav__toggle" id="nav-toggle" type="button" aria-label="Open menu">
+                    <i class="ri-menu-3-line"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!--==================== Main Content ====================-->
+    <main class="main">
+        <!--==================== Hero Section ====================-->
+        <section class="hero section" id="home">
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <p class="section__subtitle">Electrical Engineering Student</p>
+                    <h1 class="hero__title">Hi, I'm Muhammad Ahmed</h1>
+
+                    <!-- This text is animated from script.js -->
+                    <h2 class="hero__typewriter" id="typewriter"></h2>
+
+                    <p class="hero__description">
+                        Second-Year Electrical Engineering student at NED University of Engineering and Technology,
+                        Karachi. Co-founder & CEO of Knowledge Khana. I build things in the lab, on the screen, and in
+                        the real world.
+                    </p>
+
+                    <div class="hero__buttons">
+                        <a href="mailto:ahmedashraf20aug@gmail.com" class="btn btn--primary">Contact Me</a>
+                        <a href="#projects" class="btn btn--secondary">View Projects</a>
+                    </div>
+
+                    <div class="hero__info">
+                        <div>
+                            <h3>10+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div>
+                            <h3>KK</h3>
+                            <p>Knowledge Khana</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Profile image -->
+                <div class="hero__image-box">
+                    <img src="./assets/My Image.png" alt="Muhammad Ahmed" class="hero__image">
+                </div>
+            </div>
+        </section>
+
+        <!--==================== About Section ====================-->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">About Me</h2>
+                    <span class="section__subtitle">Who am I</span>
+                </div>
+
+                <div class="about__content">
+                    <h3 class="about__title">Always Learning. Always Building.</h3>
+                    <p class="about__description">
+                        I'm Muhammad Ahmed, an Electrical Engineering student at NED University and the Co-founder & CEO
+                        of Knowledge Khana, an EdTech startup built for Karachi Board matric students.
+                    </p>
+                    <p class="about__description">
+                        I started Knowledge Khana because I saw a real gap. Students were not only missing content, they
+                        were missing the right study method and guidance. My goal is to help fix that.
+                    </p>
+                    <p class="about__description">
+                        Outside the startup, I study circuit analysis, linear algebra, C++, and engineering fundamentals.
+                        I also work on web development, video editing, and graphic design.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Skills Section ====================-->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Skills</h2>
+                    <span class="section__subtitle">Tools I work with</span>
+                </div>
+
+                <div class="skills__grid">
+                    <div class="skills__card">
+                        <h3>Developer</h3>
+                        <ul>
+                            <li>HTML + CSS</li>
+                            <li>JavaScript</li>
+                            <li>C++</li>
+                            <li>Python</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </div>
+
+                    <div class="skills__card">
+                        <h3>Engineering</h3>
+                        <ul>
+                            <li>Circuit Design</li>
+                            <li>MATLAB</li>
+                            <li>Lab Instruments</li>
+                            <li>Electrical Basics</li>
+                        </ul>
+                    </div>
+
+                    <div class="skills__card">
+                        <h3>Creative</h3>
+                        <ul>
+                            <li>Canva</li>
+                            <li>CapCut</li>
+                            <li>DaVinci Resolve</li>
+                            <li>Graphic Design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Qualification Section ====================-->
+        <section class="qualification section" id="qualification">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Qualification</h2>
+                    <span class="section__subtitle">Experience & Education</span>
+                </div>
+
+                <div class="qualification__grid">
+                    <div class="qualification__card">
+                        <h3>Freelance Software Developer</h3>
+                        <span>Currently from 2025</span>
+                        <p>
+                            Building responsive websites, custom interfaces, and practical web solutions for clients.
+                        </p>
+                    </div>
+
+                    <div class="qualification__card">
+                        <h3>Bachelor's in Electrical Engineering</h3>
+                        <span>NED University</span>
+                        <p>Currently studying electrical engineering fundamentals and practical lab work.</p>
+                    </div>
+
+                    <div class="qualification__card">
+                        <h3>Intermediate</h3>
+                        <span>Adamjee Government Science College</span>
+                        <p>Completed in 2025.</p>
+                    </div>
+
+                    <div class="qualification__card">
+                        <h3>Matriculation</h3>
+                        <span>The Educators</span>
+                        <p>Completed in 2023.</p>
+                    </div>
+                </div>
+
+                <div class="qualification__footer">
+                    <p>See my full resume</p>
+                    <a href="./assets/CV.pdf" download class="btn btn--primary">Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Services Section ====================-->
+        <section class="services section" id="services">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Services</h2>
+                    <span class="section__subtitle">What I can do</span>
+                </div>
+
+                <div class="services__grid">
+                    <div class="service__card">
+                        <i class="ri-layout-4-fill"></i>
+                        <h3>Front-End Development</h3>
+                        <p>Creating responsive and interactive user interfaces using modern web technologies.</p>
+                    </div>
+
+                    <div class="service__card">
+                        <i class="ri-pen-nib-fill"></i>
+                        <h3>UI/UX Design</h3>
+                        <p>Designing clean and simple user experiences for websites and applications.</p>
+                    </div>
+
+                    <div class="service__card">
+                        <i class="ri-code-s-slash-line"></i>
+                        <h3>Full-Stack Projects</h3>
+                        <p>Developing complete web projects with front-end and back-end features.</p>
+                    </div>
+
+                    <div class="service__card">
+                        <i class="ri-share-fill"></i>
+                        <h3>Social Media Marketing</h3>
+                        <p>Helping with social media content ideas and online brand promotion.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Projects Section ====================-->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Projects</h2>
+                    <span class="section__subtitle">My recent work</span>
+                </div>
+
+                <div class="project__card">
+                    <h3>Hello World</h3>
+                    <p>
+                        A cryptocurrency web app that displays market data, coin search, and coin details using a clean
+                        interface.
+                    </p>
+                    <a href="https://cryptov/" target="_blank" rel="noopener noreferrer"
+                        class="project__link">
+                        View Project <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Contact Section ====================-->
+        <section class="contact section" id="contact">
+            <div class="container contact__container">
+                <div>
+                    <h2 class="contact__title">Interested in working together?</h2>
+                    <p class="contact__description">
+                        If you have a project, idea, or collaboration in mind, feel free to contact me.
+                    </p>
+                </div>
+
+                <div class="contact__buttons">
+                    <a href="mailto:ahmedashraf20aug@gmail.com" class="btn btn--primary">Email Me</a>
+                    <a href="https://wa.me/923003598057" target="_blank" rel="noopener noreferrer"
+                        class="btn btn--secondary">WhatsApp</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== Footer ====================-->
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer__social">
+                <li><a href="mailto:ahmedashraf20aug@gmail.com" 
+                        aria-label="Email"><i class="ri-mail-line"></i></a></li>
+                <li><a href="https://www.instagram.com/m.ahmed.___" target="_blank" rel="noopener noreferrer"
+                        aria-label="Instagram"><i class="ri-instagram-line"></i></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61561322955290" target="_blank" rel="noopener noreferrer"
+                        aria-label="facebook"><i class="ri-facebook-line"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/muhamad-ahmed-electrical" target="_blank"
+                        rel="noopener noreferrer" aria-label="LinkedIn"><i class="ri-linkedin-line"></i></a></li>
+                <li><a href="https://github.com/Muhammad12Ahmed34" target="_blank" rel="noopener noreferrer"
+                        aria-label="GitHub"><i class="ri-github-line"></i></a></li>
+            </ul>
+
+            <p class="footer__copy">&copy; 2026 Muhammad Ahmed. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
