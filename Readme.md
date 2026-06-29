@@ -8,7 +8,7 @@ A personal portfolio website built with vanilla HTML, CSS, and JavaScript. Clean
  
 ## 🚀 Live Preview
  
-> Add your deployed link here (Netlify / GitHub Pages / Vercel)
+> (https://github.com/Muhammad12Ahmed34/Portfolio-Ahmed.git)
  
 ---
  
